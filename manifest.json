@@ -16,7 +16,9 @@
         "default_title": "Bloom"
     },
     "background": {
-        "js": ["background.js"]
-    }
-
+        "js": ["background.js"],
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": ["tabs"]
 }

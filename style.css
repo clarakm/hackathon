@@ -26,16 +26,7 @@ h1 {
     margin: 20px;
     border: 1px solid #9ddcc7;
     border-radius: 8px;
-}
-
-#breathe {
-    color: #393838;
-    background-color:white;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #9ddcc7;
-    border-radius: 8px;
-    font-weight: 600;
+    opacity: 0.9;
 }
 
 #inhale {
@@ -50,3 +41,55 @@ h1 {
     font-size: 50;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#inhale:hover {
+    color: white;
+    background-color: #c5d7ff;
+    border: 1px solid #ded8fe
+}
+
+#wonderful {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    letter-spacing: 5px;
+}
+
+#time {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #d4faed;
+    border-radius: 8px;
+}
+#time:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+#countdown {
+    color: #262626;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+
+#submit {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+#submit:hover {
+    color: white;
+    background-color: #81aba6;
+}
+#submit:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
