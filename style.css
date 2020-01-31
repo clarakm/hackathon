@@ -1,6 +1,6 @@
 body {
     width: 400px;
-    height: 400px;
+    height: 550px;
     background-image: url("blue.jpg");
     background-size: 200px;
 }
@@ -14,7 +14,7 @@ h1 {
     border-radius: 8px;
     text-align: center;
     letter-spacing: 10px;
-    font-size: 50;
+    font-size: 60;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -26,12 +26,31 @@ h1 {
     margin: 20px;
     border: 1px solid #9ddcc7;
     border-radius: 8px;
-    opacity: 0.9;
+    opacity: 0.8;
+
 }
 
 #inhale {
     color: #ffffff;
-    /* background-color: #d6fff1; */
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ffffff; 
+    border-radius: 8px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 50;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+#inhale:hover {
+    color: white;
+    background-color: #c5d7ff;
+    border: 1px solid #ded8fe
+}
+
+#stretch {
+    color: #ffffff;
     padding: 20px;
     margin: 20px;
     border: 1px solid #ffffff; 
@@ -41,8 +60,7 @@ h1 {
     font-size: 50;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-#inhale:hover {
+#stretch:hover {
     color: white;
     background-color: #c5d7ff;
     border: 1px solid #ded8fe
@@ -52,15 +70,17 @@ h1 {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16;
+    font-size: 18;
     letter-spacing: 5px;
 }
 
 #time {
     padding: 10px;
     margin: 10px;
-    border: 1px solid #d4faed;
+    border: 1px solid #c8ebde;
     border-radius: 8px;
+    text-align: center;
+    font-size: 14
 }
 #time:focus {
     box-shadow: none;
@@ -79,10 +99,11 @@ h1 {
     color: black;
     padding: 10px;
     margin: 10px;
-    border: 1px solid white;
+    border: 1px solid #c4f0df;
     border-radius: 8px;
     letter-spacing: 2px;
     font-weight: 600;
+    float: right;
 }
 #submit:hover {
     color: white;
